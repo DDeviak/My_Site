@@ -56,15 +56,11 @@ main{
 	border-radius: 25px;
 	box-shadow: #0f0a0a;
 	max-width: 100%;
+	padding: 1%;
+	transition: 0.5;
 }
-.block a span{
-	background-color: #2292A4;
-	opacity: 0.5;
-	width: 50%;
-	transition: 0.5s;
-}
-.block a span:hover{
-	width: 100%;
+.block img:hover{
+	padding: 0;
 }
 .block div{
 	margin-left: 15px;
