@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+	color: #0f0a0a;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #F5EFED;
+}
+h1{
+	color: #F55D3E;
+}
+h2,h3,h4,h5,h6{
+	color: #5E548E;
+}
+nav{
+	background-color: #F5EFED;
+	opacity: 0.9;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	justify-content: flex-end;
+}
+nav img{
+	max-width: 5%;
+	margin: 1%;
+	justify-self: flex-start;
+}
+nav a{
+	padding: 10px;
+	border-radius: 10%;
+	background-color: #2292A4;
+	margin: 15px;
+}
+header{
+	text-align: center;
+	padding: 10%;
+	background-image: url("background.JPG");
+}
+header h1{
+	font-size: 6em;
+}
+main{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.block{
+	margin: 1%;
+	padding: 1%;
+	background-color: #2292A4;
+	border-radius: 25px;
+	display: flex;
+}
+.block img{
+	border-radius: 25px;
+	box-shadow: #0f0a0a;
+	max-width: 100%;
+}
+.block a span{
+	background-color: #2292A4;
+	opacity: 0.5;
+	width: 50%;
+	transition: 0.5s;
+}
+.block a span:hover{
+	width: 100%;
+}
+.block div{
+	margin-left: 15px;
+	font-size: 1.5em;
+}
+footer{
+	padding: 1% 10% 1% 10%;
+	background-color: #2292A4;
+
+}
