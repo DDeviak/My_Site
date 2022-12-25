@@ -21,6 +21,7 @@ hr{
 	margin: 5px;
 }
 p{
+	padding-left: 1em;
 	padding-top: 0.5em;
 }
 table{
@@ -157,7 +158,7 @@ main{
 }
 .article-block h2{
 	width: 100%;
-	padding-left: 2%;
+	padding-left: 2em;
 	padding-right: 2%;
 	box-sizing: border-box;
 	margin-bottom: 1%;
