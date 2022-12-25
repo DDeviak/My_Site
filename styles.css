@@ -135,9 +135,9 @@ main{
 	border-radius: 25px;
 	max-width: 60vw;
 	max-height: 40vh;
-	transition: 0.5s;
 }
 .preview-block img:hover{
+	transition: 0.5s;
 	transform:  scale(1.02);
 }
 .preview-block div{
