@@ -11,17 +11,16 @@
     <nav>
         <a class="logo" href="index.html"><img src="logo.png" alt="logo"></a>
         <ul>
-            <li><a href="/" class="btn">Page1</a></li>
+            <li><a href="/page_1.html" class="btn">Page1</a></li>
             <li><a href="/" class="btn">Page2</a></li>
             <li><a href="/" class="btn">Page3</a></li>
         </ul>
     </nav>
-    <header>
+    <header class="banner">
         <h1>The site</h1>
     </header>
-    <hr>
     <main>
-        <section class="block">
+        <section class="preview-block">
             <a href="/"><span></span><img src="background.JPG" alt="Some img"></a>
             <div>
                 <h2>Section header</h2>
@@ -30,7 +29,7 @@
             </div>
         </section>
         
-        <section class="block">
+        <section class="preview-block">
             <a href="/"><span></span><img src="background.JPG" alt="Some img"></a>
             <div>
                 <h2>Section header</h2>
@@ -39,7 +38,7 @@
             </div>
         </section>
         
-        <section class="block">
+        <section class="preview-block">
             <a href="/"><span></span><img src="background.JPG" alt="Some img"></a>
             <div>
                 <h2>Section header</h2>
@@ -47,6 +46,17 @@
                 <a href="/">Read more</a>
             </div>
         </section>
+        <form class="feadback">
+            <h2>Leave feadback</h2>
+            <div>
+                <label for="name">Enter your name:</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Enter your email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <label for="message">Enter your message:</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </form>
     </main>
     <div style="height: 1000px;"></div>
     <footer>

@@ -42,6 +42,7 @@ nav ul{
 nav ul li{
 	margin: 0.5em 1em 0.5em 1em;
 }
+
 .btn {
   background-color: #2292A4;
   border-radius: 8px;
@@ -67,51 +68,70 @@ nav ul li{
   background-color: #4cabb9;
 }
 
-header{
+.banner{
 	text-align: center;
-	padding: 10%;
-	padding-top: 15%;
+	padding: 5%;
+	padding-top: 10%;
 	background-image: url("background.JPG");
+	border-bottom: #0f0a0a 10px;
 }
-header h1{
+.banner h1{
 	font-size: 6em;
 }
 
 main{
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-top: 1%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 5%;
 }
-.block{
+
+.preview-block{
 	margin: 1%;
 	padding: 1%;
 	background-color: #2292A4;
 	border-radius: 25px;
 	display: flex;
 }
-@media (max-width: 1080px) {
-	.block{
-		display: block;
-	}
-	.block img{
-		margin-right: 15px;
-	}
-}
-.block img{
+.preview-block img{
 	border-radius: 25px;
 	box-shadow: #0f0a0a;
 	max-width: 100%;
-	opacity: 1;
 	transition: 0.5;
 }
-.block img:hover{
-	opacity: 0.9;
+.preview-block img:hover{
+	transform:  scale(1.02);
 }
-.block div{
+.preview-block div{
 	margin-left: 15px;
 	font-size: 1.5em;
 }
-footer{
-	padding: 1% 10% 1% 10%;
-	background-color: #2292A4;
+@media (max-width: 1080px) {
+	.preview-block{
+		display: block;
+	}
+	.preview-block img{
+		margin-right: 15px;
+	}
+}
 
+.article-block{
+	margin-top: 1%;
+}
+.article-block h2{
+	padding-left: 2%;
+	padding-bottom: 1%;
+}
+.ilustration img{
+	width: 100%;
+	height: 100%;
+}
+.ilustration figcaption{
+	text-align: center;
+}
+
+
+footer{
+	padding: 1% 15% 1% 15%;
+	background-color: #2292A4;
 }
