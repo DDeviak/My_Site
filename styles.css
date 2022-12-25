@@ -25,31 +25,40 @@ p{
 }
 table{
 	margin: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
 	border: 2px solid#0f0a0a;
 	border-collapse: collapse;
 }
 table td,
 table th{
 	padding: 0.5em;
+	border: 1px solid #0f0a0a;
+}
+.logo{
+	border-radius: 50%;
+	background-color: #F5EFED;
+	z-index: 2;
+	position: fixed;
+	width: 6em;
+	margin: 1em;
+	margin-left: 2em;
+	padding: 0.1em;
+}
+.logo img{
+	margin: auto;
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
 }
 nav{
+	z-index: 1;
 	background-color: #F5EFED;
 	opacity: 0.9;
 	width: 100%;
 	position: fixed;
 	display: flex;
-	justify-content: space-between;
-}
-nav .logo{
-	position: relative;
-	width: 3em;
-	margin: 0em;
-	margin-left: 2em;
-}
-nav .logo img{
-	object-fit: contain;
-	width: 100%;
-	height: 100%;
+	justify-content: flex-end;
 }
 nav ul{
 	vertical-align: middle;
@@ -60,6 +69,7 @@ nav ul{
 nav ul li{
 	margin: 0.5em 1em 0.5em 1em; 
 }
+
 .btn {
 	background-color: #2292A4;
 	border-radius: 8px;
@@ -241,4 +251,6 @@ main{
 footer{
 	padding: 1% 15% 1% 15%;
 	background-color: #2292A4;
+	display: flex;
+	justify-content: space-around;
 }
