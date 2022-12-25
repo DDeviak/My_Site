@@ -37,6 +37,7 @@ nav ul{
 	vertical-align: middle;
 	list-style: none;
 	display: inline-flex;
+	margin-right: 2em;
 }
 nav ul li{
 	margin: 0.5em 1em 0.5em 1em;
@@ -75,9 +76,10 @@ header{
 header h1{
 	font-size: 6em;
 }
+
 main{
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 .block{
 	margin: 1%;
@@ -86,15 +88,23 @@ main{
 	border-radius: 25px;
 	display: flex;
 }
+@media (max-width: 1080px) {
+	.block{
+		display: block;
+	}
+	.block img{
+		margin-right: 15px;
+	}
+}
 .block img{
 	border-radius: 25px;
 	box-shadow: #0f0a0a;
 	max-width: 100%;
-	padding: 1%;
+	opacity: 1;
 	transition: 0.5;
 }
 .block img:hover{
-	padding: 0;
+	opacity: 0.9;
 }
 .block div{
 	margin-left: 15px;
