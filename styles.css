@@ -36,6 +36,8 @@ table th{
 	padding: 0.5em;
 	border: 1px solid #0f0a0a;
 }
+
+/*LOGO*/
 .logo{
 	border-radius: 50%;
 	background-color: #F5EFED;
@@ -52,6 +54,8 @@ table th{
 	width: 100%;
 	height: 100%;
 }
+
+/*NAVIGATION*/
 nav{
 	z-index: 1;
 	background-color: #F5EFED;
@@ -71,6 +75,7 @@ nav ul li{
 	margin: 0.5em 1em 0.5em 1em; 
 }
 
+/*BUTTON*/
 .btn {
 	background-color: #2292A4;
 	border-radius: 8px;
@@ -96,6 +101,7 @@ nav ul li{
   	background-color: #4cabb9;
 }
 
+/*BANNER*/
 .banner{
 	text-align: center;
 	padding: 5%;
@@ -123,6 +129,7 @@ main{
 	margin-bottom: 5%;
 }
 
+/*PREVIEW BLOCK*/
 .preview-block{
 	margin: 1%;
 	padding: 1%;
@@ -153,6 +160,7 @@ main{
 	}
 }
 
+/*ARITCLE BLOCK*/
 .article-block{
 	margin-top: 1%;
 }
@@ -172,6 +180,8 @@ main{
 	display: flex;
 	justify-content: center;
 }
+
+/*ILUSTRATION*/
 .ilustration{
 	display: block;
 	box-sizing: border-box;
@@ -210,13 +220,7 @@ main{
 	padding: auto;
 }
 
-.feadback-form,
-.article-block,
-.preview-block{
-	background-color: #F5EFED;
-	padding: 10px;
-	border-radius: 15px;
-}
+/*FORM*/
 .feadback-form h2{
 	text-align: center;
 }
@@ -247,6 +251,14 @@ main{
 }
 .feadback-form .btn{
 	margin: 5px;
+}
+
+.feadback-form,
+.article-block,
+.preview-block{
+	background-color: #F5EFED;
+	padding: 10px;
+	border-radius: 15px;
 }
 
 footer{
