@@ -6,7 +6,7 @@
 	padding: 0;
 }
 body{
-	background-image: url(background.jpg);
+	background-image: url(pictures/background.jpg);
 	background-size: contain;
 }
 h1{
@@ -72,12 +72,17 @@ nav ul li{
 	text-align: center;
 	padding: 5%;
 	padding-top: 10%;
-	background-image: url("banner.jpg");
+	background-image: url("pictures/banner.jpg");
 	background-size: cover;
 	border-bottom: 2px solid #0f0a0a;
 }
 .banner h1{
 	font-size: 6em;
+}
+.banner h1 strong{
+	background-color: #F5EFED;
+	padding: 0.05em;
+	border-radius: 0.1em;
 }
 
 main{
@@ -96,6 +101,9 @@ main{
 	background-color: #2292A4;
 	border-radius: 25px;
 	display: flex;
+}
+.preview-block > a{
+	max-width: 60%;
 }
 .preview-block img{
 	border-radius: 25px;
@@ -130,12 +138,29 @@ main{
 	margin-bottom: 1%;
 	border-bottom: 1px solid#0f0a0a;
 }
+.article-block ul{
+	list-style-type: circle;
+	padding-left: 2em;
+}
+.ilustration{
+	box-sizing: border-box;
+	margin: 1%;
+	/*
+	border: 1px solid #0f0a0a;
+	border-radius: 15px;
+	*/
+}
 .ilustration img{
+	box-sizing: border-box;
+	padding: 1%;
+	padding-bottom: 0;
 	width: 100%;
 	height: 100%;
 }
 .ilustration figcaption{
 	text-align: center;
+	font-style: italic;
+	vertical-align: top;
 }
 
 .feadback-form,
