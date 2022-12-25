@@ -6,7 +6,8 @@
 	padding: 0;
 }
 body{
-	background-color: #F5EFED;
+	background-image: url(background.jpg);
+	background-size: contain;
 }
 h1{
 	color: #F55D3E;
@@ -71,7 +72,8 @@ nav ul li{
 	text-align: center;
 	padding: 5%;
 	padding-top: 10%;
-	background-image: url("background.JPG");
+	background-image: url("banner.jpg");
+	background-size: cover;
 	border-bottom: 2px solid #0f0a0a;
 }
 .banner h1{
@@ -79,6 +81,9 @@ nav ul li{
 }
 
 main{
+	/*background-color: #F5EFED;
+	*/
+	background-color: transparent;
 	margin-top: 1%;
 	margin-left: 15%;
 	margin-right: 15%;
@@ -120,6 +125,8 @@ main{
 .article-block h2{
 	width: 100%;
 	padding-left: 2%;
+	padding-right: 2%;
+	box-sizing: border-box;
 	margin-bottom: 1%;
 	border-bottom: 1px solid#0f0a0a;
 }
@@ -131,6 +138,13 @@ main{
 	text-align: center;
 }
 
+.feadback-form,
+.article-block,
+.preview-block{
+	background-color: #F5EFED;
+	padding: 10px;
+	border-radius: 15px;
+}
 .feadback-form h2{
 	text-align: center;
 }
