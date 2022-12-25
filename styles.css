@@ -13,7 +13,12 @@ h1{
 	color: #F55D3E;
 }
 h2,h3,h4,h5,h6{
+	padding-left: 1em;
 	color: #5E548E;
+}
+hr{
+	border: 2px solid#a79e9e;
+	margin: 5px;
 }
 nav{
 	background-color: #F5EFED;
@@ -107,9 +112,8 @@ main{
 }
 .preview-block img{
 	border-radius: 25px;
-	box-shadow: #0f0a0a;
 	max-width: 100%;
-	transition: 0.5;
+	transition: 0.5s;
 }
 .preview-block img:hover{
 	transform:  scale(1.02);
@@ -142,7 +146,12 @@ main{
 	list-style-type: circle;
 	padding-left: 2em;
 }
+.article-block .row{
+	display: flex;
+	justify-content: center;
+}
 .ilustration{
+	display: block;
 	box-sizing: border-box;
 	margin: 1%;
 	/*
@@ -156,11 +165,20 @@ main{
 	padding-bottom: 0;
 	width: 100%;
 	height: 100%;
+	object-fit: contain;
+	max-height: 50vh;
+}
+.ilustration audio{
+	margin-top: 2em;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .ilustration figcaption{
 	text-align: center;
 	font-style: italic;
-	vertical-align: top;
+	padding: auto;
 }
 
 .feadback-form,
