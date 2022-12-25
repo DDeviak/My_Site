@@ -20,38 +20,56 @@ nav{
 	width: 100%;
 	position: fixed;
 	display: flex;
-	/*justify-content: flex-end;*/
+	justify-content: space-between;
 }
-nav img{
-	max-width: 5%;
-	margin: 1%;
-	justify-self: flex-start;
+nav .logo{
+	position: relative;
+	width: 3em;
+	margin: 0em;
+	margin-left: 2em;
 }
-/*nav a{
-	height: 2em;
-	text-align: justify;
-	border-radius: 1em;
-	background-color: #2292A4;
-	margin: 1%;
-}*/
+nav .logo img{
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+}
 nav ul{
 	vertical-align: middle;
-	justify-content: flex-end;
-}
-nav .btn{
-	vertical-align: middle;
-	text-align: center;
-	display: inline-block;
 	list-style: none;
-	background-color: #2292A4;
-	height: 2em;
-	margin: 1em;
-	align-content: center;
-	vertical-align: middle;
+	display: inline-flex;
 }
+nav ul li{
+	margin: 0.5em 1em 0.5em 1em;
+}
+.btn {
+  background-color: #2292A4;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 500;
+  height: 3em;
+  line-height: 1.5em;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #4cabb9;
+}
+
 header{
 	text-align: center;
 	padding: 10%;
+	padding-top: 15%;
 	background-image: url("background.JPG");
 }
 header h1{
