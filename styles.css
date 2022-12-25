@@ -20,6 +20,18 @@ hr{
 	border: 2px solid#a79e9e;
 	margin: 5px;
 }
+p{
+	padding-top: 0.5em;
+}
+table{
+	margin: auto;
+	border: 2px solid#0f0a0a;
+	border-collapse: collapse;
+}
+table td,
+table th{
+	padding: 0.5em;
+}
 nav{
 	background-color: #F5EFED;
 	opacity: 0.9;
@@ -107,12 +119,11 @@ main{
 	border-radius: 25px;
 	display: flex;
 }
-.preview-block > a{
-	max-width: 60%;
-}
 .preview-block img{
+	object-fit: contain;
 	border-radius: 25px;
-	max-width: 100%;
+	max-width: 60vw;
+	max-height: 40vh;
 	transition: 0.5s;
 }
 .preview-block img:hover{
@@ -174,6 +185,13 @@ main{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.ilustration video{
+	box-sizing: border-box;
+	object-fit: contain;
+	width: 100%;
+	padding: 5%;
+	padding-bottom: 0;
 }
 .ilustration figcaption{
 	text-align: center;
