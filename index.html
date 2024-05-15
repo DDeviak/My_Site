@@ -1,92 +1,102 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset='utf-8'>
-	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-	<title>Guitar Hub</title>
-	<link rel="stylesheet" href="styles.css">
-	<meta name='viewport' content='width=device-width, initial-scale=1'>
-</head>
-<body>
-	<a class="logo" href="index.html"><img src="logo.png" alt="logo"></a>
-	<nav>
-		<ul>
-			<li><a href="/acoustic_guitar_structure.html" class="btn">Будова акустичної гітари</a></li>
-			<li><a href="/guitar_types.html" class="btn">Типи гітар</a></li>
-			<li><a href="/tuning.html" class="btn">Налаштування гітари</a></li>
-		</ul>
-	</nav>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Guitar Hub</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <a class="logo" href="/"><img src="../logo.png" alt="logo" /></a>
+    <nav>
+      <ul>
+        <li>
+          <a href="/acoustic_guitar_structure" class="btn"
+            >Будова акустичної гітари</a
+          >
+        </li>
+        <li><a href="/guitar_types" class="btn">Типи гітар</a></li>
+        <li><a href="/tuning" class="btn">Налаштування гітари</a></li>
+      </ul>
+    </nav>
 
-	<header class="banner">
-		<h1>Guitar <strong>Hub</strong></h1>
-	</header>
-	
-	<main>
-		<section class="preview-block">
-			<a href="/acoustic_guitar_structure.html"><img src="pictures/structure.jpg" alt="Будова акустичної гітари"></a>
-			<div>
-				<h2>Будова акустичної гітари</h2>
-				<p></p>
-				<a href="/acoustic_guitar_structure.html">Дізнатись більше</a>
-			</div>
-		</section>
-		
-		<section class="preview-block">
-			<a href="/guitar_types.html"><img src="pictures/types.jpg" alt="Типи гітар"></a>
-			<div>
-				<h2>Типи гітар</h2>
-				<p></p>
-				<a href="/guitar_types.html">Дізнатись більше</a>
-			</div>
-		</section>
-		
-		<section class="preview-block">
-			<a href="/tuning.html"><span></span><img src="pictures/tuners.jpg" alt="Тюнери"></a>
-			<div>
-				<h2>Налаштування гітари</h2>
-				<p></p>
-				<a href="/tuning.html">Дізнатись більше</a>
-			</div>
-		</section>
-		
-		<div style="height: 200px;"></div>
-		
-		<form class="feadback-form">
-			<h2>Зворотній зв'язок</h2>
-			<div class="form-row">
-				<div class="form-group">
-					<label for="name">Ваше ім'я:</label>
-					<input type="text" name="name" id="name">
-				</div>
-				<div class="form-group">
-					<label for="email">Ваш email:</label>
-					<input type="email" name="email" id="email">
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="message">Повідомлення:</label>
-				<textarea name="message" id="message" rows="10"></textarea>
-			</div>
-			<input type="submit" class="btn">
-		</form>
-	</main>
-	<footer>
-		<div>
-			<h2>Соціальні мережі</h2>
-			<ul>
-				<li><a href="https:\\Instagram.com" target="_blank">Instagram</a></li>
-				<li><a href="https:\\twitter.com" target="_blank">Twitter</a></li>
-				<li><a href="https:\\youtube.com" target="_blank">Youtube</a></li>
-			</ul>
-		</div>
-		<div>
-			<br>
-			<ul>
-				<li>Бенько Володимир</li>
-				<li>Пмі-12</li>
-				<li>2022</li>
-			</ul>
-		</div>
-	</footer>
-</body>
+    <header class="banner">
+      <h1>Guitar <strong>Hub</strong></h1>
+    </header>
+
+    <main>
+      <section class="preview-block">
+        <a href="/acoustic_guitar_structure"
+          ><img src="../pictures/structure.jpg" alt="Будова акустичної гітари"
+        /></a>
+        <div>
+          <h2>Будова акустичної гітари</h2>
+          <p></p>
+          <a href="/acoustic_guitar_structure">Дізнатись більше</a>
+        </div>
+      </section>
+
+      <section class="preview-block">
+        <a href="/guitar_types"
+          ><img src="../pictures/types.jpg" alt="Типи гітар"
+        /></a>
+        <div>
+          <h2>Типи гітар</h2>
+          <p></p>
+          <a href="/guitar_types">Дізнатись більше</a>
+        </div>
+      </section>
+
+      <section class="preview-block">
+        <a href="/tuning"
+          ><span></span><img src="../pictures/tuners.jpg" alt="Тюнери"
+        /></a>
+        <div>
+          <h2>Налаштування гітари</h2>
+          <p></p>
+          <a href="/tuning">Дізнатись більше</a>
+        </div>
+      </section>
+
+      <div style="height: 200px"></div>
+
+      <form class="feadback-form">
+        <h2>Зворотній зв'язок</h2>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Ваше ім'я:</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Ваш email:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Повідомлення:</label>
+          <textarea name="message" id="message" rows="10"></textarea>
+        </div>
+        <input type="submit" class="btn" />
+      </form>
+    </main>
+    <footer>
+      <div>
+        <h2>Соціальні мережі</h2>
+        <ul>
+          <li><a href="https:\\Instagram.com" target="_blank">Instagram</a></li>
+          <li><a href="https:\\twitter.com" target="_blank">Twitter</a></li>
+          <li><a href="https:\\youtube.com" target="_blank">Youtube</a></li>
+        </ul>
+      </div>
+      <div>
+        <br />
+        <ul>
+          <li>Бенько Володимир</li>
+          <li>Пмі-12</li>
+          <li>2022</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
